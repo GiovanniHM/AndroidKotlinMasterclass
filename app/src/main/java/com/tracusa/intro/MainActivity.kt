@@ -9,31 +9,27 @@ import android.widget.EditText
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
- /*   private var userInput: EditText? = null
-    private  var button: Button? = null*/
+    private var userInput: EditText? = null
+    private  var button: Button? = null
     private var textView: TextView? = null
-   // private  var numeTimesClicked:Int = 0
+    private  var numeTimesClicked:Int = 0
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.couter_layout)
 
-       val userInput:EditText = findViewById(R.id.editTextTextPersonName2)
-       val button:Button = findViewById(R.id.button5)
+        userInput = findViewById(R.id.editTextTextPersonName2)
+        button = findViewById(R.id.button5)
         textView = findViewById(R.id.textView4)
         textView?.movementMethod = ScrollingMovementMethod()
 
         button?.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
-                /*numeTimesClicked = numeTimesClicked.inc()
+                numeTimesClicked = numeTimesClicked.inc()
                 textView?.append("The button got tapped ${numeTimesClicked} time")
                 if(numeTimesClicked != 1) textView?.append("s \n")
-                else textView?.append("\n")*/
-                textView?.append(userInput?.text)
-                textView?.append("\n")
-               // userInput.text.clear()
-                userInput.setText("")
+                else textView?.append("\n")
 
             }
         })
@@ -42,6 +38,5 @@ class MainActivity : AppCompatActivity() {
 
     }
 }
-
 
 

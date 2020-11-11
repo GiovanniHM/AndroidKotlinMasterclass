@@ -25,6 +25,7 @@
         android:ems="10"
         android:hint="Plain Text"
         android:inputType="textPersonName"
+        android:text="Name"
         app:layout_constraintEnd_toStartOf="@+id/button5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
