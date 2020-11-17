@@ -29,7 +29,16 @@ class MainActivity : AppCompatActivity() {
                 numeTimesClicked = numeTimesClicked.inc()
                 textView?.append("The button got tapped ${numeTimesClicked} time")
                 if(numeTimesClicked != 1) textView?.append("s \n")
+<<<<<<< HEAD
                 else textView?.append("\n")
+=======
+                else textView?.append("\n")*/
+                textView?.append(userInput?.text)
+                textView?.append("\n")
+               // userInput.text.clear()
+                userInput.setText("")
+                //Repara repara 
+>>>>>>> 856a5b7d0788601336b7e331b68945b2459387a0
 
             }
         })
