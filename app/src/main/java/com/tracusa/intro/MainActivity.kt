@@ -34,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                 textView?.append("\n")
                // userInput.text.clear()
                 userInput.setText("")
+                //Repara repara 
 
             }
         })
